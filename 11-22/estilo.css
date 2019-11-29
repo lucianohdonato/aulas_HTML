@@ -1,0 +1,22 @@
+body{
+    color: blue;
+    background-color: black;
+}
+h1{
+    color: aqua;
+    text-transform: uppercase;
+    border: 2px solid tomato;
+}
+#titulo{
+    color: red;
+    text-decoration: overline underline;
+    background-image: url("https://http2.mlstatic.com/painel-em-lona-textura-madeira-fundo-15x10m-D_NQ_NP_600529-MLB28061263253_082018-F.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.branco{
+    color: white;
+}
+.fundo {
+    background-color: brown;
+}
