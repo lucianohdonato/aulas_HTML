@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    anoInicio = 1500;
+    anoFim = 2016;
+    idadeMediaParaFilhos = 28;
+
+    geracoes = (anoFim - anoInicio)/idadeMediaParaFilhos;
+
+    mostra(geracoes);
+
+</script>
